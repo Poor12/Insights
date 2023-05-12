@@ -235,7 +235,7 @@ status:
 
 ![dpdb-evict-one-replica](../images/dpdb-evict-one-replica.PNG)
 
-典型场景四：使用 statefulset 创建一个 NoSql DB 应用，Pod分布在不同的集群上。
+典型场景四：使用 statefulset 创建一个 NoSql DB 应用，Pod分布在不同的集群上。DPDB 控制器安装在每个集群中，传入包含多个集群 context 的 kubeconfig。
 
 DPDB示例：
 
